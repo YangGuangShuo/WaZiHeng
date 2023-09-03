@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 639c2ab7784fb154d8ea9144eeedc610
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube.002
+    100004: Displ
+    100006: Display
+    100008: Display Box
+    100010: Display Box001
+    100012: Display001
+    100014: Display_1
+    100016: Display_2
+    100018: Display_3
+    100020: Object061
+    100022: Object063
+    100024: Object075
+    100026: Object080
+    100028: Object081
+    100030: Object083
+    100032: rcf.001
+    400000: //RootNode
+    400002: Cube.002
+    400004: Displ
+    400006: Display
+    400008: Display Box
+    400010: Display Box001
+    400012: Display001
+    400014: Display_1
+    400016: Display_2
+    400018: Display_3
+    400020: Object061
+    400022: Object063
+    400024: Object075
+    400026: Object080
+    400028: Object081
+    400030: Object083
+    400032: rcf.001
+    2100000: metal
+    2100002: Display
+    2100004: plastik
+    2100006: 'Material #69'
+    2100008: 'Material #511'
+    2100010: 'Material #523'
+    2100012: 'Material #536'
+    2100014: BG4
+    2100016: BG7
+    2100018: kover
+    2100020: BG2
+    2100022: BG3
+    2100024: BG1
+    2100026: grey
+    2100028: BG5
+    2100030: beluy
+    2100032: logo
+    2100034: BG6
+    2100036: pol_fae
+    2100038: Neon
+    2100040: Perila
+    2100042: Perila2
+    2100044: 'Material #551'
+    2300000: Displ
+    2300002: Display
+    2300004: Display Box
+    2300006: Display Box001
+    2300008: Display001
+    2300010: Display_1
+    2300012: Display_2
+    2300014: Display_3
+    2300016: Object061
+    2300018: Object080
+    2300020: Object081
+    3300000: Displ
+    3300002: Display
+    3300004: Display Box
+    3300006: Display Box001
+    3300008: Display001
+    3300010: Display_1
+    3300012: Display_2
+    3300014: Display_3
+    3300016: Object061
+    3300018: Object080
+    3300020: Object081
+    4300000: Object061
+    4300002: Display_2
+    4300004: Display_1
+    4300006: Display_3
+    4300008: Display Box
+    4300010: Display
+    4300012: Display001
+    4300014: Display Box001
+    4300016: Object080
+    4300018: Object081
+    4300020: Displ
+    6400000: Displ
+    6400002: Display
+    6400004: Display Box
+    6400006: Display Box001
+    6400008: Display001
+    6400010: Display_1
+    6400012: Display_2
+    6400014: Display_3
+    6400016: Object061
+    6400018: Object080
+    6400020: Object081
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BG1
+    second: {fileID: 2100000, guid: cd9f714af4e5f3740afaefaa88f4a768, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BG2
+    second: {fileID: 2100000, guid: 0955ac738bac1404f91bac3afb5e73e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BG3
+    second: {fileID: 2100000, guid: 743206dbf790b894e8e43d6f20272aa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BG4
+    second: {fileID: 2100000, guid: ee52f78b73a5c93478a8c1667103f34c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BG5
+    second: {fileID: 2100000, guid: 744713ad9e3532d42be8818f39e9c7a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BG6
+    second: {fileID: 2100000, guid: 80212fbd1ac2a48468c00b51f4538c65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BG7
+    second: {fileID: 2100000, guid: b373f92ba9b8ead4098add720f3d0825, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display
+    second: {fileID: 2100000, guid: 29127bddd5b052c4fb1d595d7525a9d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #511'
+    second: {fileID: 2100000, guid: ec45f89866324ca47a756587f9a09bd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #523'
+    second: {fileID: 2100000, guid: 04eacbf6a209ac94c8301eecc8fcdc55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #536'
+    second: {fileID: 2100000, guid: 7f8fc4c7569277a4d8ce8b2bf990ee92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #551'
+    second: {fileID: 2100000, guid: ec45f89866324ca47a756587f9a09bd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #69'
+    second: {fileID: 2100000, guid: 8ec924c42dc5e3a4fb1e4596e249afb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Neon
+    second: {fileID: 2100000, guid: 593aaa30c4efca24292379016664e94a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Perila
+    second: {fileID: 2100000, guid: 014b19703b7959c438c6c31e78fd6342, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Perila2
+    second: {fileID: 2100000, guid: 9b17a1a998f19d847aabdb75dba32318, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beluy
+    second: {fileID: 2100000, guid: 87794a933d8135f4eb960e5b621afdd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grey
+    second: {fileID: 2100000, guid: 3e08290c4ed6acf43b798df6bcf70581, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kover
+    second: {fileID: 2100000, guid: 771f79760cd5d7343bb4381388a5db2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: logo
+    second: {fileID: 2100000, guid: 6e59f644aae04c24ea23f6674079a2ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: 946abe4fe2d31e34e94a0cfc3fe7a02a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastik
+    second: {fileID: 2100000, guid: 7f1909b4cccaed44092f524495fe4a93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pol_fae
+    second: {fileID: 2100000, guid: b8d886d417650334e82776ff4c7ece94, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
