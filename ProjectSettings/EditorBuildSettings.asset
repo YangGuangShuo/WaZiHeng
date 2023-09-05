@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Action.unity
     guid: 69ac682a963b45645a2923ee9b316d30
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/ActionMoon.unity
     guid: ce35686dd2384c84fa07258ff572eabb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ActionBus.unity
     guid: a06489b580b3e434f8044c24fcf0e2cc
   m_configObjects: {}
