@@ -9,6 +9,8 @@ namespace Wazi
         public float Vertical { get { return (snapY) ? SnapFloat(input.y, AxisOptions.Vertical) : input.y; } }
         public Vector2 Direction { get { return new Vector2(Horizontal, Vertical); } }
 
+        public Gyroscope Gyroscope {  get { return Input.gyro; } }
+
         public float HandleRange
         {
             get { return handleRange; }
@@ -172,6 +174,11 @@ namespace Wazi
                     }
                 }
             }
+        }
+
+        public void OpenGyroscope()
+        {
+            Input.gyro.enabled = true;
         }
     }
 }
