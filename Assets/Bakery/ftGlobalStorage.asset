@@ -424,7 +424,65 @@ MonoBehaviour:
   - Assets/Arts/Models/NewBind/12345/weiyi .fbx
   - Assets/Arts/Models/NewBind/12345/duanxiu duan.fbx
   - Assets/Arts/Models/NewBind/duanxiu2/duanxiu2.fbx
-  uvOverlapAssetList: 00000000ffffffff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000101000001010000010100000101000001010000010100000101000001010000
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+    Kit/Models/roadRampLongCurvedWall.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidRunTurn.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Asteroid01.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+    Kit/Models/rail.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidMidAir.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidJumpAndFall.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidWalk.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Models/Robot Kyle.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+    city/Models/tree_1.FBX
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+    Kit/Models/flagGreen.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidRunTurnSharp.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+    Kit/Models/roadCornerSmallBorder.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+    Kit/Models/roadStraightBridgeStart.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+    city/Models/car_4.FBX
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+    city/Models/tree_6.FBX
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Spaceship.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/FlyerAsteroidB.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+    Kit/Models/roadStartPositions.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+    Kit/Models/billboardLower.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+    city/Models/bush1.FBX
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+    Kit/Models/roadCornerSmall.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidCrouch.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+    city/Models/car_3.FBX
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+    Kit/Models/roadStart.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
+    Kit/Models/roadStraight.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Models/Pointer.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+    city/Models/hamvee.FBX
+  - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidWalkTurnSharp.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidWalkTurn.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidRun.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidIdleJumpUp.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
+    city/Models/car_1.FBX
+  - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidStandTurn.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidIdle.fbx
+  - Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/LaserBolt.fbx
+  - Assets/studioHDRI_assets/Standard Assets/Effects/TessellationShaders/Models/LowPolySphere.fbx
+  - Assets/studioHDRI_assets/fbx/knightBlack.fbx
+  - Assets/RFX_Resources/Galaxy/Model/Cube_plane.FBX
+  - Assets/Allsky/AllSkyDemoEnvironment/AllSky_DemoEnvironment.fbx
+  - Assets/Allsky/AllSkyDemoEnvironment/AllSky_DemoEnvironment_Light.fbx
+  - Assets/Allsky/AllSkyDemoEnvironment/AllSky_DemoEnvironment02.fbx
+  uvOverlapAssetList: 00000000ffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000001010000010100000101000001010000010100000101000001010000010100000101000000000000ffffffff0101000000000000000000000000000000000000010100000101000000000000010100000101000001010000010100000101000001010000010100000101000001010000010100000000000001010000010100000101000000000000010100000000000000000000000000000000000001010000000000000000000001010000000000000000000000000000000000000000000000000000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 3060

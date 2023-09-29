@@ -2538,3 +2538,955 @@ Total cache size 267935412
 Total cache size after purge 267935412
 [usbmuxd] Stop listen thread
 [usbmuxd] Listen thread exiting
+2023-9-27
+Rendering UV GBuffer for Balance_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA4 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA5 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA6 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA6.lz4" 2 0 6 0
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_ao" 8 16 5
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_ao" 8 16 6
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_2_2_6" 4 0 2 batchpointlight_2_2_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_2" 4 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_3_1_6" 4 0 3 batchpointlight_3_1_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_3" 4 0 3 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_3" 4 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_0_0_4" 4 0 0 batchpointlight_0_0_4.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_0_5_6" 4 0 0 batchpointlight_0_5_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_5_0_0" 4 0 5 batchpointlight_5_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_5_1_6" 4 0 5 batchpointlight_5_1_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_5" 4 0 5 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_5" 4 0 5 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_1_0_3" 4 0 1 batchpointlight_1_0_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_1_4_6" 4 0 1 batchpointlight_1_4_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_4_0_0" 4 0 4 batchpointlight_4_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_4_1_6" 4 0 4 batchpointlight_4_1_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_4" 4 0 4 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_4" 4 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_6_0_0" 4 0 6 batchpointlight_6_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_6_1_6" 4 0 6 batchpointlight_6_1_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_6" 4 0 6 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_6" 4 0 6 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_diffuse" 4 16 2 "gi_Balance_LMA20.bin" "Balance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_diffuse" 4 16 3 "gi_Balance_LMA30.bin" "Balance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_diffuse" 4 16 0 "gi_Balance_LM00.bin" "Balance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_diffuse" 4 16 5 "gi_Balance_LMA50.bin" "Balance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_diffuse" 4 16 1 "gi_Balance_LMA10.bin" "Balance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_diffuse" 4 16 4 "gi_Balance_LMA40.bin" "Balance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_diffuse" 4 16 6 "gi_Balance_LMA60.bin" "Balance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_diffuse" 4 16 2 "gi_Balance_LMA21.bin" "Balance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_diffuse" 4 16 3 "gi_Balance_LMA31.bin" "Balance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_diffuse" 4 16 0 "gi_Balance_LM01.bin" "Balance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_diffuse" 4 16 5 "gi_Balance_LMA51.bin" "Balance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_diffuse" 4 16 1 "gi_Balance_LMA11.bin" "Balance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_diffuse" 4 16 4 "gi_Balance_LMA41.bin" "Balance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_diffuse" 4 16 6 "gi_Balance_LMA61.bin" "Balance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_diffuse" 4 16 2 "gi_Balance_LMA22.bin" "Balance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_diffuse" 4 16 3 "gi_Balance_LMA32.bin" "Balance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_diffuse" 4 16 0 "gi_Balance_LM02.bin" "Balance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_diffuse" 4 16 5 "gi_Balance_LMA52.bin" "Balance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_diffuse" 4 16 1 "gi_Balance_LMA12.bin" "Balance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_diffuse" 4 16 4 "gi_Balance_LMA42.bin" "Balance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_diffuse" 4 16 6 "gi_Balance_LMA62.bin" "Balance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_diffuse" 4 16 2 "gi_Balance_LMA23.bin" "Balance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_diffuse" 4 16 3 "gi_Balance_LMA33.bin" "Balance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_diffuse" 4 16 0 "gi_Balance_LM03.bin" "Balance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_diffuse" 4 16 5 "gi_Balance_LMA53.bin" "Balance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_diffuse" 4 16 1 "gi_Balance_LMA13.bin" "Balance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_diffuse" 4 16 4 "gi_Balance_LMA43.bin" "Balance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_diffuse" 4 16 6 "gi_Balance_LMA63.bin" "Balance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_final" 20 16 2 "gi_Balance_LMA24.bin" "Balance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_final" 20 16 3 "gi_Balance_LMA34.bin" "Balance_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_final" 20 16 0 "gi_Balance_LM04.bin" "Balance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_final" 20 16 5 "gi_Balance_LMA54.bin" "Balance_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_final" 20 16 1 "gi_Balance_LMA14.bin" "Balance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_final" 20 16 4 "gi_Balance_LMA44.bin" "Balance_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_final" 20 16 6 "gi_Balance_LMA64.bin" "Balance_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_final_HDR.lz4" 4 0 5 comp_indirect5.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_final_HDR.lz4" 4 0 6 comp_indirect6.bin
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA2_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA2_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "2" "Balance_LMA2_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA3_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "3" "Balance_LMA3_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LM0_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LM0_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "0" "Balance_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_final_HDR.lz4" 4 0 5 addao_5.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA5_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA5_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "5" "Balance_LMA5_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA1_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "1" "Balance_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_final_HDR.lz4" 4 0 4 addao_4.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA4_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA4_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "4" "Balance_LMA4_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_final_HDR.lz4" 4 0 6 addao_6.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA6_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA6_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "6" "Balance_LMA6_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA2_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA3_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LM0_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA5_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA1_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA4_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA6_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA6_final.hdr" 1024
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Balance_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA4 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA5 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA6 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA6.lz4" 2 0 6 0
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_ao" 8 16 5
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_ao" 8 16 6
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_2_2_6" 4 0 2 batchpointlight_2_2_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_2" 4 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_3_1_6" 4 0 3 batchpointlight_3_1_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_3" 4 0 3 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_3" 4 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_0_0_4" 4 0 0 batchpointlight_0_0_4.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_0_5_6" 4 0 0 batchpointlight_0_5_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_5_0_0" 4 0 5 batchpointlight_5_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_5_1_6" 4 0 5 batchpointlight_5_1_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_5" 4 0 5 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_5" 4 0 5 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_1_0_3" 4 0 1 batchpointlight_1_0_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_1_4_6" 4 0 1 batchpointlight_1_4_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_4_0_0" 4 0 4 batchpointlight_4_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_4_1_6" 4 0 4 batchpointlight_4_1_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_4" 4 0 4 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_4" 4 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_6_0_0" 4 0 6 batchpointlight_6_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_6_1_6" 4 0 6 batchpointlight_6_1_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_6" 4 0 6 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_6" 4 0 6 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_diffuse" 4 16 2 "gi_Balance_LMA20.bin" "Balance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_diffuse" 4 16 3 "gi_Balance_LMA30.bin" "Balance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_diffuse" 4 16 0 "gi_Balance_LM00.bin" "Balance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_diffuse" 4 16 5 "gi_Balance_LMA50.bin" "Balance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_diffuse" 4 16 1 "gi_Balance_LMA10.bin" "Balance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_diffuse" 4 16 4 "gi_Balance_LMA40.bin" "Balance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_diffuse" 4 16 6 "gi_Balance_LMA60.bin" "Balance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_diffuse" 4 16 2 "gi_Balance_LMA21.bin" "Balance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_diffuse" 4 16 3 "gi_Balance_LMA31.bin" "Balance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_diffuse" 4 16 0 "gi_Balance_LM01.bin" "Balance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_diffuse" 4 16 5 "gi_Balance_LMA51.bin" "Balance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_diffuse" 4 16 1 "gi_Balance_LMA11.bin" "Balance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_diffuse" 4 16 4 "gi_Balance_LMA41.bin" "Balance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_diffuse" 4 16 6 "gi_Balance_LMA61.bin" "Balance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_diffuse" 4 16 2 "gi_Balance_LMA22.bin" "Balance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_diffuse" 4 16 3 "gi_Balance_LMA32.bin" "Balance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_diffuse" 4 16 0 "gi_Balance_LM02.bin" "Balance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_diffuse" 4 16 5 "gi_Balance_LMA52.bin" "Balance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_diffuse" 4 16 1 "gi_Balance_LMA12.bin" "Balance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_diffuse" 4 16 4 "gi_Balance_LMA42.bin" "Balance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_diffuse" 4 16 6 "gi_Balance_LMA62.bin" "Balance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_diffuse" 4 16 2 "gi_Balance_LMA23.bin" "Balance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_diffuse" 4 16 3 "gi_Balance_LMA33.bin" "Balance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_diffuse" 4 16 0 "gi_Balance_LM03.bin" "Balance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_diffuse" 4 16 5 "gi_Balance_LMA53.bin" "Balance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_diffuse" 4 16 1 "gi_Balance_LMA13.bin" "Balance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_diffuse" 4 16 4 "gi_Balance_LMA43.bin" "Balance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_diffuse" 4 16 6 "gi_Balance_LMA63.bin" "Balance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_final" 20 16 2 "gi_Balance_LMA24.bin" "Balance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_final" 20 16 3 "gi_Balance_LMA34.bin" "Balance_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_final" 20 16 0 "gi_Balance_LM04.bin" "Balance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_final" 20 16 5 "gi_Balance_LMA54.bin" "Balance_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_final" 20 16 1 "gi_Balance_LMA14.bin" "Balance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_final" 20 16 4 "gi_Balance_LMA44.bin" "Balance_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_final" 20 16 6 "gi_Balance_LMA64.bin" "Balance_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_final_HDR.lz4" 4 0 5 comp_indirect5.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_final_HDR.lz4" 4 0 6 comp_indirect6.bin
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA2_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA2_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "2" "Balance_LMA2_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA3_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "3" "Balance_LMA3_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LM0_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LM0_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "0" "Balance_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_final_HDR.lz4" 4 0 5 addao_5.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA5_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA5_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "5" "Balance_LMA5_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA1_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "1" "Balance_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_final_HDR.lz4" 4 0 4 addao_4.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA4_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA4_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "4" "Balance_LMA4_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_final_HDR.lz4" 4 0 6 addao_6.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA6_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA6_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "6" "Balance_LMA6_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA2_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA3_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LM0_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA5_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA1_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA4_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA6_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA6_final.hdr" 1024
+Total cache size 267722120
+Total cache size after purge 267722120
+Total cache size 280762300
+Total cache size after purge 267888912
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/Player9351d0d2-inputdata.json
+*** Tundra requires additional run (0.32 seconds), 0 items updated, 0 evaluated
+Finished compiling graph: 974 nodes, 2680 flattened edges (2676 ToBuild, 6 ToUse), maximum node priority 708
+[  1/969    0s] WriteResponseFile Library/Bee/artifacts/rsp/9482502092043806155.rsp
+[121/969    0s] WriteResponseFile Library/Bee/artifacts/rsp/8926815466332706443.rsp
+[244/969    0s] WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info
+[245/969    0s] WriteText Library/Bee/artifacts/csharpactions/build.gradle_iwus.info
+[256/969    0s] WriteText D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint
+[260/969    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar
+[261/969    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so
+[265/969    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[266/969    0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[267/969    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[268/969    0s] ActionGenerateProjectFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle (+7 others)
+[269/969    5s] UnityLinker D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+D:\01_Software\007_Unity\Editor\2021.3.8f1c1(LTS)\2022.2.20f1c1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\9482502092043806155.rsp
+*** Tundra requires additional run (5.89 seconds), 12 items updated, 969 evaluated
+*** Additional run caused by: contents change of Library/Bee/artifacts/Android/ManagedStripped
+Finished compiling graph: 973 nodes, 2677 flattened edges (2673 ToBuild, 6 ToUse), maximum node priority 707
+[294/968    0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt
+[295/968    0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt
+[298/968    0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt
+[299/968    1s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt
+[300/968    1s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[301/968    1s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/mscorlib-FeaturesChecked.txt
+[302/968    1s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Mathematics-FeaturesChecked.txt
+[303/968    1s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.TextMeshPro-FeaturesChecked.txt
+[304/968    1s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-firstpass-FeaturesChecked.txt
+[305/968    1s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.RenderPipelines.Universal.Runtime-FeaturesChecked.txt
+[306/968    1s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/BakeryRuntimeAssembly-FeaturesChecked.txt
+[307/968    1s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt
+[308/968    1s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UI-FeaturesChecked.txt
+[309/968    1s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt
+[310/968    1s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Burst-FeaturesChecked.txt
+[311/968    1s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.RenderPipeline.Universal.ShaderLibrary-FeaturesChecked.txt
+[312/968    1s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt
+[313/968    1s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt
+[343/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Configuration.dll
+[344/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.pdb
+[346/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.pdb
+[347/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb
+[348/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.dll
+[350/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json
+[351/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+[352/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp-firstpass.dll
+[353/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp-firstpass.pdb
+[355/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.dll
+[356/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Universal.Runtime.pdb
+[357/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.dll
+[360/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Core.Runtime.pdb
+[361/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll
+[362/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/mscorlib.dll
+[371/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/BakeryRuntimeAssembly.pdb
+[373/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/BakeryRuntimeAssembly.dll
+[379/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.dll
+[381/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Core.Runtime.dll
+[383/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/analytics.json
+[384/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.dll
+[385/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.pdb
+[386/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Mathematics.pdb
+[387/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.dll
+[388/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb
+[389/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.pdb
+[390/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.dll
+[391/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Mathematics.dll
+[392/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Universal.Runtime.dll
+[393/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Core.dll
+[394/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Burst.dll
+[395/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.pdb
+[396/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[397/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Burst.pdb
+[398/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[399/968    1s] ClassRegistrationGenerator D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp
+[400/968    1s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.RenderPipelines.Core.Runtime-FeaturesChecked.txt
+[401/968    1s] ICallRegistrationGenerator D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp
+[402/968    0s] Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)
+[403/968    4s] IL2CPP_CodeGen D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/il2cpp_conv_e04d.traceevents
+D:\01_Software\007_Unity\Editor\2021.3.8f1c1(LTS)\2022.2.20f1c1\Editor\Data\il2cpp\build\deploy\il2cpp.exe --convert-to-cpp --assembly=Library/Bee/artifacts/Android/ManagedStripped/Assembly-CSharp-firstpass.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Assembly-CSharp.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/BakeryRuntimeAssembly.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Mono.Security.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/mscorlib.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.Configuration.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.Core.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.Xml.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.Burst.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.Burst.Unsafe.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.Mathematics.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.RenderPipeline.Universal.ShaderLibrary.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.RenderPipelines.Core.Runtime.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.RenderPipelines.Universal.Runtime.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.TextMeshPro.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.AndroidJNIModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.AnimationModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.AudioModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.CoreModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.GridModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.IMGUIModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.InputLegacyModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.InputModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.ParticleSystemModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.Physics2DModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.PhysicsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.PropertiesModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.SharedInternalsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.SpriteShapeModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.SubsystemsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TerrainModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TextCoreFontEngineModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TextRenderingModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TilemapModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UI.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UIElementsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UIModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UnityAnalyticsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UnityWebRequestModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.VFXModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.VRModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.XRModule.dll --generatedcppdir=D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/cpp --enable-analytics --emit-null-checks --enable-array-bounds-check --dotnetprofile=unityaot-linux --profiler-report --profiler-output-file=D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/il2cpp_conv_e04d.traceevents --print-command-line --data-folder=D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/data
+[BUSY       8s] Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityClassRegistration.o
+[404/968    9s] Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityICallRegistration.o
+[405/968    9s] Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityClassRegistration.o
+[BUSY       6s] Link libunity Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so
+[BUSY      16s] Link libunity Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so
+[406/968   26s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[407/968    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/lib_burst_generated.so
+[408/968   20s] Link libunity Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so
+[409/968    0s] Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so
+[410/968    0s] Stripping Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so
+[411/968    0s] Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so
+[412/968    0s] Adding note Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so -> D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so
+*** Tundra requires additional run (32.92 seconds), 67 items updated, 968 evaluated
+*** Additional run caused by: contents change of D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/cpp
+Finished compiling graph: 990 nodes, 2728 flattened edges (2724 ToBuild, 6 ToUse), maximum node priority 724
+[265/985    0s] WriteResponseFile Library/Bee/artifacts/rsp/8926815466332706443.rsp
+[413/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt
+[423/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/24bc_ly_CodeGen.o
+[424/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ihsu_gistration.o
+[425/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/sqfi_gistration.o
+[427/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/t9b7_figuration.o
+[428/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/2h3a_Runtime__9.o
+[429/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/0x3w_scorlib__9.o
+[431/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/exj6_Methods__9.o
+[432/985    7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/oa73_MGUIModule.o
+[433/985    7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/sbaa_nerics__13.o
+[434/985    7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/m15k_nerics__48.o
+[435/985    7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/dqmo_nerics__21.o
+[436/985    7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/1jkd_nerics__61.o
+[437/985    7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/95fi_corlib__13.o
+[438/985    7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/s3xg_nerics__35.o
+[439/985    7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7m3i_nerics__41.o
+[440/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/te4m_Runtime__6.o
+[441/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/cp3e_aluesTable.o
+[442/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/tuc4_scorlib__6.o
+[443/985    8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/45jq_CoreModule.o
+[444/985    8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/38w1_ethods__13.o
+[445/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/18ws_pDataTable.o
+[446/985    8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6g1l_nerics__26.o
+[448/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ioou_aluesTable.o
+[449/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/4z93_ethodTable.o
+[451/985    8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/t353_nerics__58.o
+[452/985    8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/hke4_enerics__9.o
+[453/985    8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ltl4_nerics__47.o
+[454/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/hjnd_ClassTable.o
+[455/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/un9y_RgctxTable.o
+[456/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/543s_ThunkTable.o
+[457/985    8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ep31_nerics__51.o
+[458/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/r1bl_Methods__6.o
+[460/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6vr3_ematics__9.o
+[461/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/54sr_interTable.o
+[462/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/p1dm_gine.UI__4.o
+[463/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/2wuf_corlib__18.o
+[464/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/veci_Runtime__6.o
+[465/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/wp76_MeshPro__4.o
+[466/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ahnb_enerics__6.o
+[468/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7qgi_Runtime__4.o
+[469/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/9qod_Runtime__4.o
+[470/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6nm5_nerics__11.o
+[471/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/nisd_corlib__11.o
+[473/985    6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/2kej_MeshPro__6.o
+[475/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/d5c6_ematics__4.o
+[476/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/76oz_scorlib__4.o
+[477/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/u6bt_-firstpass.o
+[478/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/0k3z_nerics__31.o
+[479/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/l648_Methods__4.o
+[480/985    6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/j0ji_ematics__6.o
+[481/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/hsoa_matics__11.o
+[483/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/mzn1_nerics__62.o
+[484/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/hl9w_ethods__11.o
+[485/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/tbix_nerics__36.o
+[486/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7ol2_nerics__27.o
+[488/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/nfpq_eModule__1.o
+[489/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/iymt_gine.UI__1.o
+[490/985    6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/4lgz_enerics__4.o
+[492/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/2nxk_Runtime__1.o
+[493/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/suwn_y.Burst__1.o
+[494/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/61ld_ematics__1.o
+[495/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/e3dg_Methods__1.o
+[496/985    7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/l2o7_nerics__18.o
+[497/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/h5av_MeshPro__5.o
+[498/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/0npp_Runtime__1.o
+[499/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/u6r1_Runtime__5.o
+[500/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/s6j6_Runtime__5.o
+[501/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/03x6_scorlib__1.o
+[502/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/u65d_eldValues1.o
+[503/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/smsn_scorlib__5.o
+[504/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6yca_ypeValues1.o
+[505/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/hq8d_enerics__1.o
+[506/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6l8w_Methods__5.o
+[508/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/y8ei_meAssembly.o
+[509/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/19iu_Runtime__8.o
+[510/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ykgu_ematics__5.o
+[511/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/pmge_MeshPro__1.o
+[512/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/dpzp_Methods__8.o
+[513/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/fi08_scorlib__8.o
+[514/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/m8q4_nerics__33.o
+[515/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/3syz_MeshPro__7.o
+[516/985    6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/p1jn_enerics__5.o
+[517/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/uhav_bly-CSharp.o
+[518/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/guf6_Runtime__7.o
+[519/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/s9v1_Methods__7.o
+[520/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/1oaz_corlib__17.o
+[521/985    6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/w4ag_enerics__8.o
+[522/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/5n7m_ematics__8.o
+[523/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/k83y_ematics__7.o
+[524/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ku4q_nerics__17.o
+[526/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/eags_scorlib__7.o
+[527/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/yp3z_y.Burst__3.o
+[528/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ze12_nerics__16.o
+[529/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/bp7r_enerics__7.o
+[530/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/erll_nerics__37.o
+[531/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/0dig_nerics__46.o
+[532/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/taw2_eModule__3.o
+[533/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/g96a_corlib__16.o
+[534/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/8mb6_nerics__64.o
+[535/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/l1xx_nerics__25.o
+[536/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/8n2f_nerics__57.o
+[537/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/mbdu_Runtime__3.o
+[539/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ej9r_nerics__59.o
+[540/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/e8pg_extMeshPro.o
+[541/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/equb_nerics__44.o
+[542/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/4lay_gine.UI__3.o
+[543/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/vhnq_MeshPro__3.o
+[545/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/mrlb_scorlib__3.o
+[546/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/t2eu_nerics__65.o
+[548/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/kyks_Methods__3.o
+[550/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/hihz_sModule__3.o
+[551/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/cxsp_ematics__3.o
+[552/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/8xv1_corlib__12.o
+[554/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/oblp_Runtime__3.o
+[555/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7nus_nerics__34.o
+[556/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7v6l_nerics__12.o
+[557/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/tarn_nerics__43.o
+[558/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/0e9p_nerics__39.o
+[559/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/27ry_matics__12.o
+[560/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/fyes_nerics__45.o
+[561/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/z6o9_nerics__38.o
+[562/985    6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/3dwi_enerics__3.o
+[563/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/s4oq_nerics__28.o
+[565/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/20cl_ethods__12.o
+[566/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/dkse_nerics__29.o
+[567/985   21s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/qa5g_vokerTable.o
+[569/985    6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/fxni_nerics__52.o
+[570/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/0b0w_nerics__60.o
+[571/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/a2j2_MeshPro__2.o
+[572/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/u5cl_le_CodeGen.o
+[573/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/3dqh_gine.UI__2.o
+[574/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/0lu9_nerics__24.o
+[576/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/n308_Runtime__2.o
+[577/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/zih4_Methods__2.o
+[578/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/da0b_y.Burst__2.o
+[579/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/rhp1_ematics__2.o
+[580/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/l3sd_Runtime__2.o
+[581/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/2j4a_le_CodeGen.o
+[582/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/1kx5_on_CodeGen.o
+[583/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/oo0p_ethods__14.o
+[584/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/lj1u_scorlib__2.o
+[585/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/8cwg_le_CodeGen.o
+[586/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/emee_re_CodeGen.o
+[590/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/wnok_le_CodeGen.o
+[591/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/49g6_le_CodeGen.o
+[592/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/drdy_nerics__14.o
+[593/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/lct5_le_CodeGen.o
+[594/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ulj6_corlib__14.o
+[595/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/uu2v_le_CodeGen.o
+[596/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/sexa_le_CodeGen.o
+[597/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/077t_le_CodeGen.o
+[598/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ezxe_nerics__15.o
+[599/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/bds0_re.Runtime.o
+[600/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/pro0_le_CodeGen.o
+[601/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ey64_nerics__22.o
+[602/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/f1mu_corlib__15.o
+[603/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/rjax_le_CodeGen.o
+[604/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/55yx_le_CodeGen.o
+[605/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/8use_eModule__2.o
+[606/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/nvho_ty_CodeGen.o
+[607/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/tsfv_al.Runtime.o
+[609/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/y8ol_ro_CodeGen.o
+[610/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/iysu_enerics__2.o
+[611/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/pxxo_le_CodeGen.o
+[612/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/w099_le_CodeGen.o
+[613/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/n4g5_ed_CodeGen.o
+[614/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/xing_UI_CodeGen.o
+[615/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7e58_le_CodeGen.o
+[616/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7idr_me_CodeGen.o
+[617/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/e88o_le_CodeGen.o
+[618/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/2cdz_le_CodeGen.o
+[619/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/3v8w_ib_CodeGen.o
+[620/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/yqjd_ss_CodeGen.o
+[622/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/99ig_me_CodeGen.o
+[623/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/77un_le_CodeGen.o
+[624/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/hjni_em_CodeGen.o
+[625/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/curv_le_CodeGen.o
+[626/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/k8v7_le_CodeGen.o
+[627/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/a368_ml_CodeGen.o
+[628/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6nor_rp_CodeGen.o
+[629/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/dmit_le_CodeGen.o
+[630/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/e0af_le_CodeGen.o
+[631/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/zjtg_st_CodeGen.o
+[632/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7cxs_le_CodeGen.o
+[634/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/xxmj_cs_CodeGen.o
+[635/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/56vg_le_CodeGen.o
+[636/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7cfw_fe_CodeGen.o
+[637/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/symt_ry_CodeGen.o
+[638/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ul95_adataUsage.o
+[639/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/tke6_TypeValues.o
+[640/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/xi8a_ieldValues.o
+[641/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6usd_System.Xml.o
+[643/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/spyz_derLibrary.o
+[644/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/opkw_untime__10.o
+[645/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/0h2y_System__3.o
+[646/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/92np_yEngine.UI.o
+[647/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/zdat_nerics__23.o
+[648/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7fiz_nerics__56.o
+[649/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/m0eb_nerics__55.o
+[650/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/s266_nerics__42.o
+[651/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/lsuu_nerics__54.o
+[652/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/t9zd_nerics__50.o
+[653/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/2wuw_efinitions.o
+[654/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/w558_ethods__10.o
+[655/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/l8ih_nerics__10.o
+[656/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/f2ya_System__2.o
+[657/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/hc9l_efinitions.o
+[666/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/wclm_matics__10.o
+[667/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7l0p_mscorlib.o
+[668/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/umvm_System__1.o
+[669/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6hsv_nerics__19.o
+[670/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ma8w_corlib__10.o
+[671/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7erp_nerics__63.o
+[678/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/Data/Resources/mscorlib.dll-resources.dat
+[679/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/Data/Metadata/global-metadata.dat
+[680/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c
+[681/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c
+[682/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c
+[683/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppTypeDefinitions.c
+[684/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityAnalyticsModule_CodeGen.c
+[685/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Mono.Security_CodeGen.c
+[688/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__6.cpp
+[689/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__3.cpp
+[690/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PhysicsModule.cpp
+[691/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp-firstpass.cpp
+[692/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__2.cpp
+[693/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Configuration.cpp
+[694/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__1.cpp
+[696/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__7.cpp
+[697/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__2.cpp
+[698/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__6.cpp
+[699/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__4.cpp
+[700/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__8.cpp
+[701/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__7.cpp
+[704/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__2.cpp
+[705/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__4.cpp
+[706/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__1.cpp
+[707/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI_CodeGen.c
+[708/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__9.cpp
+[709/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__3.cpp
+[710/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__3.cpp
+[712/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__5.cpp
+[713/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__5.cpp
+[714/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__6.cpp
+[715/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime_CodeGen.c
+[716/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__1.cpp
+[718/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__11.cpp
+[719/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__13.cpp
+[720/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__12.cpp
+[721/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__14.cpp
+[722/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipeline.Universal.ShaderLibrary_CodeGen.c
+[723/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__10.cpp
+[725/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__7.cpp
+[726/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreFontEngineModule_CodeGen.c
+[727/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics.cpp
+[729/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib.cpp
+[730/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule_CodeGen.c
+[731/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__9.cpp
+[734/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule_CodeGen.c
+[735/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__1.cpp
+[740/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues1.cpp
+[741/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__4.cpp
+[742/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreFontEngineModule.cpp
+[744/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[746/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues.cpp
+[748/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppInvokerTable.cpp
+[749/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodDefinitions.c
+[750/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__4.cpp
+[751/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[752/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__1.cpp
+[753/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule_CodeGen.c
+[755/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PropertiesModule_CodeGen.c
+[756/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__10.cpp
+[757/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c
+[759/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c
+[760/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c
+[761/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TerrainModule_CodeGen.c
+[762/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp-firstpass_CodeGen.c
+[763/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst.Unsafe_CodeGen.c
+[765/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataRegistration.c
+[766/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__3.cpp
+[767/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c
+[768/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCFieldValuesTable.cpp
+[769/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__6.cpp
+[771/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c
+[773/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputModule_CodeGen.c
+[774/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AudioModule_CodeGen.c
+[775/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime.cpp
+[776/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/__Generated_CodeGen.c
+[777/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Core_CodeGen.c
+[778/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst_CodeGen.c
+[779/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__5.cpp
+[780/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__2.cpp
+[781/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro.cpp
+[782/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI__4.cpp
+[783/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__7.cpp
+[784/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__3.cpp
+[785/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__4.cpp
+[786/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataUsage.c
+[787/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI__2.cpp
+[788/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__1.cpp
+[789/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI__3.cpp
+[790/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__8.cpp
+[793/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__6.cpp
+[796/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI__1.cpp
+[797/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics.cpp
+[798/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BakeryRuntimeAssembly.cpp
+[799/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__9.cpp
+[800/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__11.cpp
+[801/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericClassTable.c
+[802/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_CodeGen.c
+[803/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__12.cpp
+[805/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml_CodeGen.c
+[808/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__10.cpp
+[813/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__8.cpp
+[814/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__3.cpp
+[816/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues1.cpp
+[817/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c
+[818/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c
+[819/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c
+[822/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues.cpp
+[823/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__2.cpp
+[824/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime_CodeGen.c
+[825/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System_CodeGen.c
+[826/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__3.cpp
+[827/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[828/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__54.cpp
+[829/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__63.cpp
+[830/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__48.cpp
+[831/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__33.cpp
+[832/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__36.cpp
+[833/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__47.cpp
+[834/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__29.cpp
+[835/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__38.cpp
+[836/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__40.cpp
+[837/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__37.cpp
+[838/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__26.cpp
+[839/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__39.cpp
+[840/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__25.cpp
+[841/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__55.cpp
+[842/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__57.cpp
+[843/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__35.cpp
+[844/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__16.cpp
+[845/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__56.cpp
+[846/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__10.cpp
+[847/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__27.cpp
+[848/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__14.cpp
+[849/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__64.cpp
+[850/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__42.cpp
+[851/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__12.cpp
+[852/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__19.cpp
+[853/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__18.cpp
+[854/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__31.cpp
+[855/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__14.cpp
+[856/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__53.cpp
+[857/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__59.cpp
+[858/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__60.cpp
+[859/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__51.cpp
+[860/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__15.cpp
+[861/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__28.cpp
+[862/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__65.cpp
+[863/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__34.cpp
+[864/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__13.cpp
+[865/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__24.cpp
+[866/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__10.cpp
+[867/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__16.cpp
+[868/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__13.cpp
+[869/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__32.cpp
+[870/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__49.cpp
+[871/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__11.cpp
+[872/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__18.cpp
+[873/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__52.cpp
+[874/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__46.cpp
+[875/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__20.cpp
+[876/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__17.cpp
+[877/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__50.cpp
+[878/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__41.cpp
+[879/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__43.cpp
+[880/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__61.cpp
+[881/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__15.cpp
+[882/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__22.cpp
+[883/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__45.cpp
+[884/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__17.cpp
+[885/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__30.cpp
+[886/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__58.cpp
+[887/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__11.cpp
+[888/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__12.cpp
+[889/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__44.cpp
+[890/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__62.cpp
+[891/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__21.cpp
+[892/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst__2.cpp
+[893/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst__3.cpp
+[894/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst__1.cpp
+[895/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppRgctxTable.c
+[896/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods.cpp
+[897/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__3.cpp
+[898/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib_CodeGen.c
+[899/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__1.cpp
+[900/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__2.cpp
+[903/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI.cpp
+[906/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BakeryRuntimeAssembly_CodeGen.c
+[907/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VFXModule_CodeGen.c
+[908/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCodeRegistration.cpp
+[909/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppUnresolvedIndirectCallStubs.cpp
+[910/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime.cpp
+[911/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppInteropDataTable.cpp
+[912/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodTable.c
+[914/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule.cpp
+[916/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCTypeValuesTable.cpp
+[917/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__5.cpp
+[919/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.IMGUIModule.cpp
+[920/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro_CodeGen.c
+[922/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics_CodeGen.c
+[923/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__23.cpp
+[924/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__5.cpp
+[925/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIModule_CodeGen.c
+[926/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VRModule_CodeGen.c
+[928/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.XRModule_CodeGen.c
+[930/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipeline.Universal.ShaderLibrary.cpp
+[931/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Configuration_CodeGen.c
+[933/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericInstDefinitions.c
+[934/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__2.cpp
+[935/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericAdjustorThunkTable.c
+[936/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__2.cpp
+[937/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__4.cpp
+[940/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__5.cpp
+[941/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__3.cpp
+[942/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__4.cpp
+[944/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__8.cpp
+[945/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__1.cpp
+[946/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__6.cpp
+[947/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__7.cpp
+[948/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__1.cpp
+[949/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__2.cpp
+[950/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__9.cpp
+[951/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__3.cpp
+[952/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__7.cpp
+[953/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodPointerTable.c
+[954/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__6.cpp
+[955/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__8.cpp
+[956/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml.cpp
+[957/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__9.cpp
+[958/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__5.cpp
+[959/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/analytics.json
+[960/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst.cpp
+[961/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/2ssd_efinitions.o
+[962/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/29su_gineModule.o
+[963/985    0s] GuidGenerator D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[964/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/c598_sicsModule.o
+[965/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/eaxj_Generics.o
+[966/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/zcjj_nerics__30.o
+[967/985   10s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/tlbr_athematics.o
+[968/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/m7zu_nerics__40.o
+[969/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/l06n_nerics__32.o
+[970/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7g98_nerics__49.o
+[971/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/saj0_nerics__20.o
+[972/985    4s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/0cr6_nerics__53.o
+[973/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/9ieb_ricMethods.o
+[974/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/0tv3_tCallStubs.o
+[975/985    3s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/jqcc_nity.Burst.o
+[BUSY       6s] Link_Android_arm32 Library/Bee/artifacts/Android/iz17e/libil2cpp.so
+[976/985    9s] Link_Android_arm32 Library/Bee/artifacts/Android/iz17e/libil2cpp.so
+[977/985    0s] CopyFiles Library/Bee/artifacts/objcopy_b9ry/libil2cpp.dbg.so
+[978/985    0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/stripped/libil2cpp.so
+[979/985    0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/libil2cpp.sym.so
+[980/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.sym.so
+[981/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.dbg.so
+[982/985    0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/libil2cpp.so
+[983/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.so
+[984/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.so
+*** Tundra build success (52.55 seconds), 471 items updated, 985 evaluated
+Total cache size 267888912
+Total cache size after purge 267888912
+Total cache size 267888912
+Total cache size after purge 267888912
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267888912
+Total cache size after purge 267888912
+Total cache size 267888912
+Total cache size after purge 267888912
+[267/985    0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[268/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[269/985    3s] UnityLinker D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+D:\01_Software\007_Unity\Editor\2021.3.8f1c1(LTS)\2022.2.20f1c1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\9482502092043806155.rsp
+*** Tundra requires additional run (3.57 seconds), 3 items updated, 985 evaluated
+*** Additional run caused by: contents change of Library/Bee/artifacts/Android/ManagedStripped
+Finished compiling graph: 989 nodes, 2725 flattened edges (2721 ToBuild, 6 ToUse), maximum node priority 723
+[           0s] Delete 15 artifact files that are no longer in use. (like D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\Bee\Android\Prj\IL2CPP\Il2CppBackup\Managed\icallsummary.txt)
+[406/984    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[407/984    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[408/984    0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[410/984    3s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[412/984    3s] IL2CPP_CodeGen D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/il2cpp_conv_e04d.traceevents
+D:\01_Software\007_Unity\Editor\2021.3.8f1c1(LTS)\2022.2.20f1c1\Editor\Data\il2cpp\build\deploy\il2cpp.exe --convert-to-cpp --assembly=Library/Bee/artifacts/Android/ManagedStripped/Assembly-CSharp-firstpass.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Assembly-CSharp.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/BakeryRuntimeAssembly.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Mono.Security.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/mscorlib.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.Configuration.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.Core.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.Xml.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.Burst.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.Burst.Unsafe.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.Mathematics.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.RenderPipeline.Universal.ShaderLibrary.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.RenderPipelines.Core.Runtime.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.RenderPipelines.Universal.Runtime.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.TextMeshPro.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.AndroidJNIModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.AnimationModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.AudioModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.CoreModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.GridModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.IMGUIModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.InputLegacyModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.InputModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.ParticleSystemModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.Physics2DModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.PhysicsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.PropertiesModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.SharedInternalsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.SpriteShapeModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.SubsystemsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TerrainModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TextCoreFontEngineModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TextRenderingModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TilemapModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UI.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UIElementsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UIModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UnityAnalyticsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UnityWebRequestModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.VFXModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.VRModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.XRModule.dll --generatedcppdir=D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/cpp --enable-analytics --emit-null-checks --enable-array-bounds-check --dotnetprofile=unityaot-linux --profiler-report --profiler-output-file=D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/il2cpp_conv_e04d.traceevents --print-command-line --data-folder=D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/data
+[763/984    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/Data/Resources/mscorlib.dll-resources.dat
+[814/984    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[886/984    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[969/984    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/Data/Metadata/global-metadata.dat
+[970/984    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[973/984    0s] GuidGenerator D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[974/984    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/uhav_bly-CSharp.o
+[975/984    0s] Link_Android_arm32 Library/Bee/artifacts/Android/iz17e/libil2cpp.so
+[976/984    0s] CopyFiles Library/Bee/artifacts/objcopy_b9ry/libil2cpp.dbg.so
+[977/984    0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/stripped/libil2cpp.so
+[978/984    0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/libil2cpp.sym.so
+[979/984    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.sym.so
+[980/984    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.dbg.so
+[981/984    0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/libil2cpp.so
+[982/984    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.so
+[983/984    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.so
+*** Tundra build success (5.66 seconds), 21 items updated, 984 evaluated
+Total cache size 267888912
+Total cache size after purge 267888912
+abort_threads: Failed aborting id: 0000000000009004, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000033C8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000009004, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000033C8, mono_thread_manage will ignore it
+
+[usbmuxd] Stop listen thread
+[usbmuxd] Listen thread exiting

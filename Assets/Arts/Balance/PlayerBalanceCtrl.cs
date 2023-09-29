@@ -102,6 +102,7 @@ public class PlayerBalanceCtrl : MonoBehaviour
         }
         characterController.Move(direction * mSpeed * Time.deltaTime);
         IsMirror(direction);
+        CheckFade();
     }
 
     private void CheckDeath()
@@ -143,7 +144,7 @@ public class PlayerBalanceCtrl : MonoBehaviour
                 Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
                 Renderer _renderer = hit.collider.GetComponent<Renderer>();
                 renderers.Add(_renderer);
-                SetMaterialsColor(_renderer, 0.5f);
+                SetMaterialsColor(_renderer, 0.2f);
             } else
             {
                 for (int i = 0; i < renderers.Count; i++)
@@ -179,7 +180,7 @@ public class PlayerBalanceCtrl : MonoBehaviour
             color.a = Transpa;
 
             //置当前材质球颜色
-            _renderer.materials[i].SetColor("_Color", color);
+            _renderer.materials[i].SetColor("_BaseColor", color);
         }
 
     }

@@ -30,7 +30,7 @@ public class CharacterRotate : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         }
         else
         {
-            InternalRotate(0, 100 * continuousDirection, 0);
+            InternalRotate(0, 10 * continuousDirection, 0);
         }
     }
 
