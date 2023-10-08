@@ -162,7 +162,7 @@ namespace Wazi
             {
                 for (int i = 0; i < hit.Length; i++)
                 {
-                    Debug.Log(hit[i].collider.gameObject.name);
+                    //Debug.Log(hit[i].collider.gameObject.name);
                     BuildingCtrl buildingCtrl = hit[i].collider.gameObject.GetComponent<BuildingCtrl>();
 
                     if (buildingCtrl)

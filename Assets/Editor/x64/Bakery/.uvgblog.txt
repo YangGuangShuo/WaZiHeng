@@ -3490,3 +3490,944 @@ abort_threads: Failed aborting id: 00000000000033C8, mono_thread_manage will ign
 
 [usbmuxd] Stop listen thread
 [usbmuxd] Listen thread exiting
+2023-10-4
+Rendering UV GBuffer for Balance_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA4 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA5 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA6 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA6.lz4" 2 0 6 0
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_ao" 8 16 5
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_ao" 8 16 6
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_2_2_6" 4 0 2 batchpointlight_2_2_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_2" 4 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_3_1_6" 4 0 3 batchpointlight_3_1_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_3" 4 0 3 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_3" 4 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_0_0_4" 4 0 0 batchpointlight_0_0_4.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_0_5_6" 4 0 0 batchpointlight_0_5_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_5_0_0" 4 0 5 batchpointlight_5_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_5_1_6" 4 0 5 batchpointlight_5_1_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_5" 4 0 5 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_5" 4 0 5 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_1_0_3" 4 0 1 batchpointlight_1_0_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_1_4_6" 4 0 1 batchpointlight_1_4_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_4_0_0" 4 0 4 batchpointlight_4_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_4_1_6" 4 0 4 batchpointlight_4_1_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_4" 4 0 4 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_4" 4 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_6_0_0" 4 0 6 batchpointlight_6_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_6_1_6" 4 0 6 batchpointlight_6_1_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_6" 4 0 6 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_6" 4 0 6 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_diffuse" 4 16 2 "gi_Balance_LMA20.bin" "Balance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_diffuse" 4 16 3 "gi_Balance_LMA30.bin" "Balance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_diffuse" 4 16 0 "gi_Balance_LM00.bin" "Balance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_diffuse" 4 16 5 "gi_Balance_LMA50.bin" "Balance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_diffuse" 4 16 1 "gi_Balance_LMA10.bin" "Balance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_diffuse" 4 16 4 "gi_Balance_LMA40.bin" "Balance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_diffuse" 4 16 6 "gi_Balance_LMA60.bin" "Balance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_diffuse" 4 16 2 "gi_Balance_LMA21.bin" "Balance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_diffuse" 4 16 3 "gi_Balance_LMA31.bin" "Balance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_diffuse" 4 16 0 "gi_Balance_LM01.bin" "Balance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_diffuse" 4 16 5 "gi_Balance_LMA51.bin" "Balance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_diffuse" 4 16 1 "gi_Balance_LMA11.bin" "Balance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_diffuse" 4 16 4 "gi_Balance_LMA41.bin" "Balance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_diffuse" 4 16 6 "gi_Balance_LMA61.bin" "Balance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_diffuse" 4 16 2 "gi_Balance_LMA22.bin" "Balance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_diffuse" 4 16 3 "gi_Balance_LMA32.bin" "Balance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_diffuse" 4 16 0 "gi_Balance_LM02.bin" "Balance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_diffuse" 4 16 5 "gi_Balance_LMA52.bin" "Balance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_diffuse" 4 16 1 "gi_Balance_LMA12.bin" "Balance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_diffuse" 4 16 4 "gi_Balance_LMA42.bin" "Balance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_diffuse" 4 16 6 "gi_Balance_LMA62.bin" "Balance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_diffuse" 4 16 2 "gi_Balance_LMA23.bin" "Balance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_diffuse" 4 16 3 "gi_Balance_LMA33.bin" "Balance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_diffuse" 4 16 0 "gi_Balance_LM03.bin" "Balance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_diffuse" 4 16 5 "gi_Balance_LMA53.bin" "Balance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_diffuse" 4 16 1 "gi_Balance_LMA13.bin" "Balance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_diffuse" 4 16 4 "gi_Balance_LMA43.bin" "Balance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_diffuse" 4 16 6 "gi_Balance_LMA63.bin" "Balance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_final" 20 16 2 "gi_Balance_LMA24.bin" "Balance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_final" 20 16 3 "gi_Balance_LMA34.bin" "Balance_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_final" 20 16 0 "gi_Balance_LM04.bin" "Balance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_final" 20 16 5 "gi_Balance_LMA54.bin" "Balance_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_final" 20 16 1 "gi_Balance_LMA14.bin" "Balance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_final" 20 16 4 "gi_Balance_LMA44.bin" "Balance_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_final" 20 16 6 "gi_Balance_LMA64.bin" "Balance_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_final_HDR.lz4" 4 0 5 comp_indirect5.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_final_HDR.lz4" 4 0 6 comp_indirect6.bin
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA2_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA2_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "2" "Balance_LMA2_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA3_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "3" "Balance_LMA3_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LM0_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LM0_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "0" "Balance_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_final_HDR.lz4" 4 0 5 addao_5.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA5_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA5_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "5" "Balance_LMA5_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA1_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "1" "Balance_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_final_HDR.lz4" 4 0 4 addao_4.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA4_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA4_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "4" "Balance_LMA4_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_final_HDR.lz4" 4 0 6 addao_6.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA6_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA6_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "6" "Balance_LMA6_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA2_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA3_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LM0_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA5_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA1_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA4_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA6_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA6_final.hdr" 1024
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267888912
+Total cache size after purge 267888912
+Total cache size 267888912
+Total cache size after purge 267888912
+Rebuilding DAG because directory contents changed: Library/PlayerDataCache/Android/Data
+*** Tundra requires additional run (0.52 seconds), 0 items updated, 0 evaluated
+Finished compiling graph: 990 nodes, 2727 flattened edges (2723 ToBuild, 6 ToUse), maximum node priority 723
+[244/985    0s] WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_zb1e.info
+[245/985    0s] WriteText Library/Bee/artifacts/csharpactions/boot.config_x4e9.info
+[266/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[267/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[268/985    0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[269/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[270/985    5s] UnityLinker D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+D:\01_Software\007_Unity\Editor\2021.3.8f1c1(LTS)\2022.2.20f1c1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\9482502092043806155.rsp
+[388/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.pdb
+[389/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.dll
+[390/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json
+[391/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll
+[392/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb
+[393/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.dll
+[394/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[395/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.pdb
+[396/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[397/985    0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[398/985    0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt
+[399/985    0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.AudioModule-FeaturesChecked.txt
+[400/985    0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt
+[402/985    2s] ICallRegistrationGenerator D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp
+[403/985    2s] ClassRegistrationGenerator D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp
+[404/985    3s] IL2CPP_CodeGen D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/il2cpp_conv_e04d.traceevents
+D:\01_Software\007_Unity\Editor\2021.3.8f1c1(LTS)\2022.2.20f1c1\Editor\Data\il2cpp\build\deploy\il2cpp.exe --convert-to-cpp --assembly=Library/Bee/artifacts/Android/ManagedStripped/Assembly-CSharp-firstpass.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Assembly-CSharp.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/BakeryRuntimeAssembly.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Mono.Security.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/mscorlib.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.Configuration.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.Core.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.Xml.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.Burst.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.Burst.Unsafe.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.Mathematics.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.RenderPipeline.Universal.ShaderLibrary.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.RenderPipelines.Core.Runtime.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.RenderPipelines.Universal.Runtime.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.TextMeshPro.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.AndroidJNIModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.AnimationModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.AudioModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.CoreModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.GridModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.IMGUIModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.InputLegacyModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.InputModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.ParticleSystemModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.Physics2DModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.PhysicsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.PropertiesModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.SharedInternalsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.SpriteShapeModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.SubsystemsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TerrainModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TextCoreFontEngineModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TextRenderingModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TilemapModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UI.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UIElementsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UIModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UnityAnalyticsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UnityWebRequestModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.VFXModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.VRModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.XRModule.dll --generatedcppdir=D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/cpp --enable-analytics --emit-null-checks --enable-array-bounds-check --dotnetprofile=unityaot-linux --profiler-report --profiler-output-file=D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/il2cpp_conv_e04d.traceevents --print-command-line --data-folder=D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/data
+[570/985    2s] Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityClassRegistration.o
+[571/985    2s] Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityICallRegistration.o
+[573/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ihsu_gistration.o
+[574/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/24bc_ly_CodeGen.o
+[575/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/wnok_le_CodeGen.o
+[577/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/1kx5_on_CodeGen.o
+[578/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/2j4a_le_CodeGen.o
+[579/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/hjnd_ClassTable.o
+[580/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/8cwg_le_CodeGen.o
+[581/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/un9y_RgctxTable.o
+[582/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/u5cl_le_CodeGen.o
+[583/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/4z93_ethodTable.o
+[584/985    2s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/emee_re_CodeGen.o
+[587/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/077t_le_CodeGen.o
+[588/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/lct5_le_CodeGen.o
+[589/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/49g6_le_CodeGen.o
+[590/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/sexa_le_CodeGen.o
+[591/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/pro0_le_CodeGen.o
+[592/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/nvho_ty_CodeGen.o
+[593/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/55yx_le_CodeGen.o
+[594/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/y8ol_ro_CodeGen.o
+[595/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/rjax_le_CodeGen.o
+[596/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/w099_le_CodeGen.o
+[597/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/uu2v_le_CodeGen.o
+[598/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7e58_le_CodeGen.o
+[599/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/pxxo_le_CodeGen.o
+[600/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/3v8w_ib_CodeGen.o
+[603/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/2cdz_le_CodeGen.o
+[605/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/a368_ml_CodeGen.o
+[606/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/yqjd_ss_CodeGen.o
+[607/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/curv_le_CodeGen.o
+[608/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6nor_rp_CodeGen.o
+[609/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/hjni_em_CodeGen.o
+[611/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/77un_le_CodeGen.o
+[612/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/k8v7_le_CodeGen.o
+[618/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/xing_UI_CodeGen.o
+[619/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7cxs_le_CodeGen.o
+[620/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/symt_ry_CodeGen.o
+[621/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/7idr_me_CodeGen.o
+[622/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/dmit_le_CodeGen.o
+[623/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/56vg_le_CodeGen.o
+[624/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/99ig_me_CodeGen.o
+[625/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/e0af_le_CodeGen.o
+[668/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/Data/Resources/mscorlib.dll-resources.dat
+[670/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/Data/Metadata/global-metadata.dat
+[671/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/zjtg_st_CodeGen.o
+[672/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c
+[673/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Mono.Security_CodeGen.c
+[674/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityAnalyticsModule_CodeGen.c
+[676/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c
+[683/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__1.cpp
+[697/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppTypeDefinitions.c
+[713/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI_CodeGen.c
+[715/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppInvokerTable.cpp
+[717/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime_CodeGen.c
+[718/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipeline.Universal.ShaderLibrary_CodeGen.c
+[724/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreFontEngineModule_CodeGen.c
+[725/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule_CodeGen.c
+[729/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule_CodeGen.c
+[737/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[740/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues1.cpp
+[743/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodDefinitions.c
+[744/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[745/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule_CodeGen.c
+[746/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c
+[747/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c
+[750/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PropertiesModule_CodeGen.c
+[751/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TerrainModule_CodeGen.c
+[753/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c
+[755/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp-firstpass_CodeGen.c
+[756/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCFieldValuesTable.cpp
+[760/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c
+[761/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataRegistration.c
+[763/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AudioModule_CodeGen.c
+[764/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c
+[768/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputModule_CodeGen.c
+[769/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Core_CodeGen.c
+[777/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst_CodeGen.c
+[792/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataUsage.c
+[794/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_CodeGen.c
+[796/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericClassTable.c
+[800/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml_CodeGen.c
+[806/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues1.cpp
+[807/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/xxmj_cs_CodeGen.o
+[810/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues.cpp
+[811/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c
+[812/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c
+[814/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c
+[818/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime_CodeGen.c
+[819/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[827/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System_CodeGen.c
+[888/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/hc9l_efinitions.o
+[889/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/2wuw_efinitions.o
+[901/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BakeryRuntimeAssembly_CodeGen.c
+[902/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VFXModule_CodeGen.c
+[906/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCodeRegistration.cpp
+[907/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppRgctxTable.c
+[909/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib_CodeGen.c
+[911/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodTable.c
+[912/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCTypeValuesTable.cpp
+[917/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AudioModule.cpp
+[918/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro_CodeGen.c
+[919/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics_CodeGen.c
+[920/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.XRModule_CodeGen.c
+[923/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIModule_CodeGen.c
+[925/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VRModule_CodeGen.c
+[935/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Configuration_CodeGen.c
+[952/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericInstDefinitions.c
+[956/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ul95_adataUsage.o
+[957/985    0s] GuidGenerator D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[958/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/2ssd_efinitions.o
+[959/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/sqfi_gistration.o
+[960/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6yca_ypeValues1.o
+[961/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/cp3e_aluesTable.o
+[962/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ioou_aluesTable.o
+[963/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/79xq_udioModule.o
+[964/985    5s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/u65d_eldValues1.o
+[965/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/tke6_TypeValues.o
+[966/985    6s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/uhav_bly-CSharp.o
+[967/985    7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/nfpq_eModule__1.o
+[968/985   13s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[969/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/lib_burst_generated.so
+[BUSY      14s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/qa5g_vokerTable.o
+[970/985   11s] Link libunity Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so
+[971/985    0s] Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so
+[972/985    0s] Stripping Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so
+[973/985    0s] Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so
+[974/985    0s] Adding note Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so -> D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so
+[975/985   16s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/qa5g_vokerTable.o
+[BUSY       6s] Link_Android_arm32 Library/Bee/artifacts/Android/iz17e/libil2cpp.so
+[BUSY      16s] Link_Android_arm32 Library/Bee/artifacts/Android/iz17e/libil2cpp.so
+[BUSY      26s] Link_Android_arm32 Library/Bee/artifacts/Android/iz17e/libil2cpp.so
+[976/985   27s] Link_Android_arm32 Library/Bee/artifacts/Android/iz17e/libil2cpp.so
+[977/985    0s] CopyFiles Library/Bee/artifacts/objcopy_b9ry/libil2cpp.dbg.so
+[978/985    0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/stripped/libil2cpp.so
+[979/985    0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/libil2cpp.sym.so
+[980/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.sym.so
+[981/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.dbg.so
+[982/985    0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/libil2cpp.so
+[983/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.so
+[984/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.so
+*** Tundra build success (55.25 seconds), 160 items updated, 985 evaluated
+Total cache size 267888912
+Total cache size after purge 267888912
+Total cache size 267888912
+Total cache size after purge 267888912
+Total cache size 267888912
+Total cache size after purge 267888912
+[267/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[268/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[269/985    0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[270/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+*** Tundra requires additional run (0.17 seconds), 4 items updated, 985 evaluated
+*** Additional run caused by: contents change of Library/Bee/artifacts/Android/ManagedStripped
+Finished compiling graph: 991 nodes, 2730 flattened edges (2726 ToBuild, 6 ToUse), maximum node priority 724
+[984/986    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt
+[985/986    0s] GuidGenerator D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (0.17 seconds), 2 items updated, 986 evaluated
+Total cache size 267888912
+Total cache size after purge 267888912
+Total cache size 267888912
+Total cache size after purge 267888912
+Total cache size 267888912
+Total cache size after purge 267888912
+[981/986    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[982/986    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[983/986    0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[984/986    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[985/986    0s] GuidGenerator D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (0.25 seconds), 5 items updated, 986 evaluated
+Total cache size 267888912
+Total cache size after purge 267888912
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+[usbmuxd] Stop listen thread
+[usbmuxd] Listen thread exiting
+2023-10-5
+Rendering UV GBuffer for Balance_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA4 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA5 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA6 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Balance_LMA7 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA7.lz4" 2 0 7 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\22914\AppData\Local\Temp\frender" "uvpos_Balance_LMA6.lz4" 2 0 6 0
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA7_ao" 8 16 7
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_ao" 8 16 5
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_ao" 8 16 6
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_7_0_1" 4 0 7 batchpointlight_7_0_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_7_2_6" 4 0 7 batchpointlight_7_2_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_7" 4 0 7 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_7" 4 0 7 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA7" 4 0 7 comp_7.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_2_1_6" 4 0 2 batchpointlight_2_1_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_2" 4 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_5_0_0" 4 0 5 batchpointlight_5_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_5_1_6" 4 0 5 batchpointlight_5_1_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_5" 4 0 5 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_5" 4 0 5 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_1_0_4" 4 0 1 batchpointlight_1_0_4.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_1_5_6" 4 0 1 batchpointlight_1_5_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_3_1_6" 4 0 3 batchpointlight_3_1_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_3" 4 0 3 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_3" 4 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_0_0_3" 4 0 0 batchpointlight_0_0_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_0_4_6" 4 0 0 batchpointlight_0_4_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_4_0_0" 4 0 4 batchpointlight_4_0_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_4_1_6" 4 0 4 batchpointlight_4_1_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_4" 4 0 4 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_4" 4 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_6_0_2" 4 0 6 batchpointlight_6_0_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\22914\AppData\Local\Temp\frender" "PointBatch_6_3_6" 4 0 6 batchpointlight_6_3_6.bin
+Running ftraceRTX sky "C:\Users\22914\AppData\Local\Temp\frender" "light_1_6" 4 0 6 sky0.bin
+Running ftraceRTX sun "C:\Users\22914\AppData\Local\Temp\frender" "light_2_6" 4 0 6 direct0.bin
+Running ftraceRTX addmul "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA7_diffuse" 4 16 7 "gi_Balance_LMA70.bin" "Balance_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_diffuse" 4 16 2 "gi_Balance_LMA20.bin" "Balance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_diffuse" 4 16 5 "gi_Balance_LMA50.bin" "Balance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_diffuse" 4 16 1 "gi_Balance_LMA10.bin" "Balance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_diffuse" 4 16 3 "gi_Balance_LMA30.bin" "Balance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_diffuse" 4 16 0 "gi_Balance_LM00.bin" "Balance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_diffuse" 4 16 4 "gi_Balance_LMA40.bin" "Balance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_diffuse" 4 16 6 "gi_Balance_LMA60.bin" "Balance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA7_diffuse" 4 16 7 "gi_Balance_LMA71.bin" "Balance_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_diffuse" 4 16 2 "gi_Balance_LMA21.bin" "Balance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_diffuse" 4 16 5 "gi_Balance_LMA51.bin" "Balance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_diffuse" 4 16 1 "gi_Balance_LMA11.bin" "Balance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_diffuse" 4 16 3 "gi_Balance_LMA31.bin" "Balance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_diffuse" 4 16 0 "gi_Balance_LM01.bin" "Balance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_diffuse" 4 16 4 "gi_Balance_LMA41.bin" "Balance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_diffuse" 4 16 6 "gi_Balance_LMA61.bin" "Balance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA7_diffuse" 4 16 7 "gi_Balance_LMA72.bin" "Balance_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_diffuse" 4 16 2 "gi_Balance_LMA22.bin" "Balance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_diffuse" 4 16 5 "gi_Balance_LMA52.bin" "Balance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_diffuse" 4 16 1 "gi_Balance_LMA12.bin" "Balance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_diffuse" 4 16 3 "gi_Balance_LMA32.bin" "Balance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_diffuse" 4 16 0 "gi_Balance_LM02.bin" "Balance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_diffuse" 4 16 4 "gi_Balance_LMA42.bin" "Balance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_diffuse" 4 16 6 "gi_Balance_LMA62.bin" "Balance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA7_diffuse" 4 16 7 "gi_Balance_LMA73.bin" "Balance_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_diffuse" 4 16 2 "gi_Balance_LMA23.bin" "Balance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_diffuse" 4 16 5 "gi_Balance_LMA53.bin" "Balance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_diffuse" 4 16 1 "gi_Balance_LMA13.bin" "Balance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_diffuse" 4 16 3 "gi_Balance_LMA33.bin" "Balance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_diffuse" 4 16 0 "gi_Balance_LM03.bin" "Balance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_diffuse" 4 16 4 "gi_Balance_LMA43.bin" "Balance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_diffuse" 4 16 6 "gi_Balance_LMA63.bin" "Balance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA7_final" 20 16 7 "gi_Balance_LMA74.bin" "Balance_LMA7_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_final" 20 16 2 "gi_Balance_LMA24.bin" "Balance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_final" 20 16 5 "gi_Balance_LMA54.bin" "Balance_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_final" 20 16 1 "gi_Balance_LMA14.bin" "Balance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_final" 20 16 3 "gi_Balance_LMA34.bin" "Balance_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_final" 20 16 0 "gi_Balance_LM04.bin" "Balance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_final" 20 16 4 "gi_Balance_LMA44.bin" "Balance_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_final" 20 16 6 "gi_Balance_LMA64.bin" "Balance_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA7_final_HDR.lz4" 4 0 7 comp_indirect7.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_final_HDR.lz4" 4 0 5 comp_indirect5.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftraceRTX add "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_final_HDR.lz4" 4 0 6 comp_indirect6.bin
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA7_final_HDR.lz4" 4 0 7 addao_7.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA7_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA7_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "7" "Balance_LMA7_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA2_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA2_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "2" "Balance_LMA2_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA5_final_HDR.lz4" 4 0 5 addao_5.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA5_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA5_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "5" "Balance_LMA5_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA1_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "1" "Balance_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA3_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "3" "Balance_LMA3_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LM0_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LM0_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "0" "Balance_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA4_final_HDR.lz4" 4 0 4 addao_4.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA4_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA4_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "4" "Balance_LMA4_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\22914\AppData\Local\Temp\frender" "Balance_LMA6_final_HDR.lz4" 4 0 6 addao_6.bin
+Running denoiserOIDN c "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA6_final_HDR.lz4" "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA6_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\22914\AppData\Local\Temp\frender" "6" "Balance_LMA6_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA7_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA7_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA2_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA5_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA1_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA3_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LM0_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA4_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\22914\AppData\Local\Temp\frender/Balance_LMA6_final_HDR.lz4" "D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Assets/BakeryLightmaps/Balance_LMA6_final.hdr" 1024
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Total cache size 267523120
+Total cache size after purge 267523120
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Total cache size 267523120
+Total cache size after purge 267523120
+[266/986    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[267/986    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[268/986    0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[269/986    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[270/986    5s] UnityLinker D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+D:\01_Software\007_Unity\Editor\2021.3.8f1c1(LTS)\2022.2.20f1c1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\9482502092043806155.rsp
+*** Tundra requires additional run (5.94 seconds), 5 items updated, 986 evaluated
+*** Additional run caused by: contents change of Library/Bee/artifacts/Android/ManagedStripped
+Finished compiling graph: 990 nodes, 2727 flattened edges (2723 ToBuild, 6 ToUse), maximum node priority 723
+[           0s] Delete 15 artifact files that are no longer in use. (like D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\Bee\Android\Prj\IL2CPP\Il2CppBackup\Managed\icallsummary.txt)
+[405/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[406/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[409/985    0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[411/985    3s] IL2CPP_CodeGen D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/il2cpp_conv_e04d.traceevents
+D:\01_Software\007_Unity\Editor\2021.3.8f1c1(LTS)\2022.2.20f1c1\Editor\Data\il2cpp\build\deploy\il2cpp.exe --convert-to-cpp --assembly=Library/Bee/artifacts/Android/ManagedStripped/Assembly-CSharp-firstpass.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Assembly-CSharp.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/BakeryRuntimeAssembly.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Mono.Security.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/mscorlib.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.Configuration.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.Core.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.Xml.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.Burst.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.Burst.Unsafe.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.Mathematics.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.RenderPipeline.Universal.ShaderLibrary.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.RenderPipelines.Core.Runtime.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.RenderPipelines.Universal.Runtime.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.TextMeshPro.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.AndroidJNIModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.AnimationModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.AudioModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.CoreModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.GridModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.IMGUIModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.InputLegacyModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.InputModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.ParticleSystemModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.Physics2DModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.PhysicsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.PropertiesModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.SharedInternalsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.SpriteShapeModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.SubsystemsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TerrainModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TextCoreFontEngineModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TextRenderingModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TilemapModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UI.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UIElementsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UIModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UnityAnalyticsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UnityWebRequestModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.VFXModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.VRModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.XRModule.dll --generatedcppdir=D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/cpp --enable-analytics --emit-null-checks --enable-array-bounds-check --dotnetprofile=unityaot-linux --profiler-report --profiler-output-file=D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/il2cpp_conv_e04d.traceevents --print-command-line --data-folder=D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/data
+[676/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/Data/Resources/mscorlib.dll-resources.dat
+[678/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/Data/Metadata/global-metadata.dat
+[682/985    3s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[749/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[762/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppTypeDefinitions.c
+[773/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues1.cpp
+[781/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodDefinitions.c
+[782/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[788/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCFieldValuesTable.cpp
+[802/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataRegistration.c
+[823/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_CodeGen.c
+[844/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataUsage.c
+[850/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[856/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues1.cpp
+[866/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues.cpp
+[956/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppRgctxTable.c
+[957/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCTypeValuesTable.cpp
+[961/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericInstDefinitions.c
+[962/985    1s] GuidGenerator D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[BUSY       7s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/cp3e_aluesTable.o
+[963/985    8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6nor_rp_CodeGen.o
+[964/985    8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/un9y_RgctxTable.o
+[965/985    8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/hc9l_efinitions.o
+[966/985    8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ul95_adataUsage.o
+[967/985    8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/2wuw_efinitions.o
+[968/985    8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/2ssd_efinitions.o
+[969/985    8s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ihsu_gistration.o
+[970/985   10s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/cp3e_aluesTable.o
+[971/985   10s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ioou_aluesTable.o
+[972/985   10s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6yca_ypeValues1.o
+[973/985   10s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/u65d_eldValues1.o
+[974/985   10s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/tke6_TypeValues.o
+[975/985   12s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/uhav_bly-CSharp.o
+[BUSY       6s] Link_Android_arm32 Library/Bee/artifacts/Android/iz17e/libil2cpp.so
+[BUSY      16s] Link_Android_arm32 Library/Bee/artifacts/Android/iz17e/libil2cpp.so
+[BUSY      26s] Link_Android_arm32 Library/Bee/artifacts/Android/iz17e/libil2cpp.so
+[BUSY      36s] Link_Android_arm32 Library/Bee/artifacts/Android/iz17e/libil2cpp.so
+[976/985   37s] Link_Android_arm32 Library/Bee/artifacts/Android/iz17e/libil2cpp.so
+[977/985    0s] CopyFiles Library/Bee/artifacts/objcopy_b9ry/libil2cpp.dbg.so
+[978/985    0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/stripped/libil2cpp.so
+[979/985    0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/libil2cpp.sym.so
+[980/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.sym.so
+[981/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.dbg.so
+[982/985    0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/libil2cpp.so
+[983/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.so
+[984/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.so
+*** Tundra build success (54.33 seconds), 45 items updated, 985 evaluated
+Total cache size 267523120
+Total cache size after purge 267523120
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Total cache size 267523120
+Total cache size after purge 267523120
+Total cache size 267523120
+Total cache size after purge 267523120
+[266/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[267/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[268/985    0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[269/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[270/985    3s] UnityLinker D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+D:\01_Software\007_Unity\Editor\2021.3.8f1c1(LTS)\2022.2.20f1c1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\9482502092043806155.rsp
+[407/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[408/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[409/985    0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[411/985    3s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[413/985    3s] IL2CPP_CodeGen D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/il2cpp_conv_e04d.traceevents
+D:\01_Software\007_Unity\Editor\2021.3.8f1c1(LTS)\2022.2.20f1c1\Editor\Data\il2cpp\build\deploy\il2cpp.exe --convert-to-cpp --assembly=Library/Bee/artifacts/Android/ManagedStripped/Assembly-CSharp-firstpass.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Assembly-CSharp.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/BakeryRuntimeAssembly.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Mono.Security.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/mscorlib.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.Configuration.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.Core.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/System.Xml.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.Burst.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.Burst.Unsafe.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.Mathematics.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.RenderPipeline.Universal.ShaderLibrary.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.RenderPipelines.Core.Runtime.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.RenderPipelines.Universal.Runtime.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/Unity.TextMeshPro.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.AndroidJNIModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.AnimationModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.AudioModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.CoreModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.GridModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.IMGUIModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.InputLegacyModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.InputModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.ParticleSystemModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.Physics2DModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.PhysicsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.PropertiesModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.SharedInternalsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.SpriteShapeModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.SubsystemsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TerrainModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TextCoreFontEngineModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TextRenderingModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.TilemapModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UI.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UIElementsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UIModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UnityAnalyticsModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.UnityWebRequestModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.VFXModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.VRModule.dll --assembly=Library/Bee/artifacts/Android/ManagedStripped/UnityEngine.XRModule.dll --generatedcppdir=D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/cpp --enable-analytics --emit-null-checks --enable-array-bounds-check --dotnetprofile=unityaot-linux --profiler-report --profiler-output-file=D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/il2cpp_conv_e04d.traceevents --print-command-line --data-folder=D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/data
+[782/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/Data/Resources/mscorlib.dll-resources.dat
+[788/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[877/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodDefinitions.c
+[880/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[902/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_CodeGen.c
+[964/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppRgctxTable.c
+[966/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/Data/Metadata/global-metadata.dat
+[967/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataUsage.c
+[968/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[970/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/6nor_rp_CodeGen.o
+[971/985    0s] GuidGenerator D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[972/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/un9y_RgctxTable.o
+[973/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/2wuw_efinitions.o
+[974/985    0s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/ul95_adataUsage.o
+[975/985    1s] C_Android_arm32 Library/Bee/artifacts/Android/iz17e/uhav_bly-CSharp.o
+[976/985    0s] Link_Android_arm32 Library/Bee/artifacts/Android/iz17e/libil2cpp.so
+[977/985    0s] CopyFiles Library/Bee/artifacts/objcopy_b9ry/libil2cpp.dbg.so
+[978/985    0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/stripped/libil2cpp.so
+[979/985    0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/libil2cpp.sym.so
+[980/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.sym.so
+[981/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.dbg.so
+[982/985    0s] NdkObjCopy Library/Bee/artifacts/objcopy_b9ry/libil2cpp.so
+[983/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/artifacts/Android/il2cppOutput/build/armeabi-v7a/libil2cpp.so
+[984/985    0s] CopyFiles D:/02_Work/027_SheJiao/Project/WaZiHeng/WaziHeng/WaZiHeng/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.so
+*** Tundra build success (9.45 seconds), 34 items updated, 985 evaluated
+Total cache size 267523120
+Total cache size after purge 267523120
+Total cache size 267523120
+Total cache size after purge 267523120
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02_Work\027_SheJiao\Project\WaZiHeng\WaziHeng\WaZiHeng\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+[usbmuxd] Stop listen thread
+[usbmuxd] Listen thread exiting
