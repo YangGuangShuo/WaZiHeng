@@ -7767,7 +7767,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &390049142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13776,6 +13776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NiuZai
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4fab9b3982c2e634688d7fcd1e3f353e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17436,7 +17440,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!143 &900231618
 CharacterController:
   m_ObjectHideFlags: 0
@@ -21513,7 +21517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 11e91d89d106e1746b93aea11de02a77, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24684,7 +24688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5698333701f23d1478e09de17c247a99, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25189,6 +25193,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1356455207}
   m_CullTransparentMesh: 0
+--- !u!1001 &1356767942
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8644171335329687995, guid: 3d286fc9e17856149a36f6aa530e09b2, type: 3}
+      propertyPath: m_Name
+      value: SK_BeachBoy_01 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988503894556472065, guid: 3d286fc9e17856149a36f6aa530e09b2, type: 3}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988503894556472065, guid: 3d286fc9e17856149a36f6aa530e09b2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988503894556472065, guid: 3d286fc9e17856149a36f6aa530e09b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988503894556472065, guid: 3d286fc9e17856149a36f6aa530e09b2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988503894556472065, guid: 3d286fc9e17856149a36f6aa530e09b2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988503894556472065, guid: 3d286fc9e17856149a36f6aa530e09b2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988503894556472065, guid: 3d286fc9e17856149a36f6aa530e09b2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988503894556472065, guid: 3d286fc9e17856149a36f6aa530e09b2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988503894556472065, guid: 3d286fc9e17856149a36f6aa530e09b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988503894556472065, guid: 3d286fc9e17856149a36f6aa530e09b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988503894556472065, guid: 3d286fc9e17856149a36f6aa530e09b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d286fc9e17856149a36f6aa530e09b2, type: 3}
 --- !u!1 &1364300805
 GameObject:
   m_ObjectHideFlags: 0
